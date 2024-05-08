@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    box-shadow: 1px 1px 10px 1px #111;
+    text-transform: uppercase;
+}
+
+#nav-design {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Sans-Serif;
+    color: #fff;
+
+}
+
+#btn-tog {
+    color: #fff;
+}
+
+.nav-design1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Sans-Serif;
+    color: orange;
+}
+
+nav {
+    background-image: linear-gradient(to right, #120236 50%, #fff 50%);
+    text-transform: uppercase;
+}
+
+.btn {
+    border-width: 0;
+    border: none;
+    color: red;
+}
+
+#nav-home {
+    color: #999;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Sans-Serif;
+    letter-spacing: 1px;
+    animation: all .5s ease;
+}
+
+#nav-home.active,
+#nav-home:hover {
+    color: #bf0a74;
+}
+
+/*Home-section*/
+.home-container {
+    background: #fff;
+    background-size: cover;
+}
+
+.home-content {
+
+    padding-top: 160px;
+}
+
+.home-main-heading1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+    animation: aniamte 3s linear infinite;
+}
+
+.home-style {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #0c9950;
+    text-align: center;
+    padding-top: 100px;
+}
+
+@keyframes aniamte {
+    0% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateX(250px);
+    }
+}
+
+.home-main-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #9b4da8;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #ed11a4;
+}
+
+.home-paragraph {
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #666;
+}
+
+.home-btn {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #363535;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 40px;
+}
+
+.home-btn:hover {
+    border: 0;
+    outline: 0;
+    background: #3e14d9;
+}
+
+.home-Img {
+    width: 100%;
+    transition: 0.5s;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.home-Img:hover {
+    transform: scale(1.1);
+}
+
+/*Course-section*/
+
+.course-conainer {
+    background: #fff;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.course-heading {
+    font-size: 30PX;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #222;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.course-card {
+    background: #fff;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #888;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+.course-card:hover {
+    transform: scale(1.1);
+}
+
+.course-price {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Robotot";
+    color: #fff;
+    background: #ed0959;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.course-style {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Robotot";
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: #888;
+    border-radius: 5px;
+}
+
+.course-Img {
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.course-Img:hover {
+    transform: scale(0.8);
+}
+
+.star-icon {
+    margin-left: 30px;
+}
+
+.star-icons {
+    font-size: 25px;
+    color: #8e21d1;
+    cursor: pointer;
+}
+
+.course-sub-heading {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Robotot";
+    color: #be20c9;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.course-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Robotot";
+    color: #444;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.course-button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.course-btn {
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Robotot";
+    border: 0;
+    background: #1c1c1c;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.course-btn:hover {
+    background: #0c18f7;
+    border: 0;
+    outline: 0;
+}
+
+.line {
+    border-bottom: 1px solid #555;
+}
+
+.course-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.course-icons {
+    font-size: 20px;
+    color: #f01180;
+    cursor: pointer;
+}
+
+.course-styles {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Robotot";
+    color: #444;
+}
+
+.line1 {
+    border-bottom: 1px solid #555;
+    margin-bottom: -30px;
+
+}
+
+/*Teacher-Section*/
+.teach-main-heading {
+    font-size: 25PX;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #d229f0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.teach-card-section {
+    background: #fff;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #888;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.teach-card-section:hover {
+    background: #26136e;
+    transform: scale(1.1);
+}
+
+.teach-Img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.teacher-name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.teacher-name1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #7015d1;
+    text-align: center;
+}
+
+.teacher-info {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #777;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.social-media-icons {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.social-media-icon {
+    font-size: 25px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #f20c60;
+    padding-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.social-media-icon:hover {
+    background: #0c23f2;
+}
+
+/*Course-plane-section*/
+
+.plan-section-container {
+    background: #fff;
+    background-size: cover;
+
+}
+
+.plan-main-heading {
+    font-size: 25PX;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #f022f0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.plan-card {
+    background: #fff;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #888;
+    border-radius: 10px;
+    border: 2px solid #999;
+    transition: 0.5s;
+}
+
+
+
+.plane-heading {
+    font-size: 20PX;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #444;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.plan-price {
+    background-image: linear-gradient(to right, #5f189e, #ad13a8, #e3143e);
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.plan-info {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #888;
+    cursor: pointer;
+}
+
+.plan-info1 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #888;
+    cursor: pointer;
+    border-bottom: 1px solid #999;
+
+}
+
+.plan-btn {
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-family: "Roboto";
+    border-radius: 10px;
+    background: #1f1d1d;
+    transition: 0.5s;
+}
+
+.plan-btn:hover {
+    background: #3d63cc;
+    border: 0;
+    outline: 0;
+}
+
+.plan-btn1 {
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-family: "Roboto";
+    border-radius: 10px;
+    background: #1140c2;
+    transition: 0.5s;
+}
+
+/*Student-Review-Section*/
+.review-container {
+    background: #fff;
+    background-size: cover;
+}
+
+.review-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #e014a3;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.review-card {
+    border-radius: 5px;
+}
+
+.review-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.review-Img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.review-Img:hover {
+    transform: scale(1.1);
+}
+
+.review-icon {
+    font-size: 30px;
+    color: #f23fe6;
+    padding-right: 20px;
+
+}
+
+.student-name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #000;
+    padding-left: 20px;
+    margin-top: -15px;
+}
+
+.student-style {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #888;
+}
+
+.student-paragrapgh {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #555;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+/*Contact-Section*/
+.contact-section {
+    background: #fff;
+    background-size: cover;
+}
+
+.contact-heading {
+    font-size: 25PX;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-align: center;
+    color: #eb1e9c;
+    padding-top: 60px;
+}
+
+.con-Img {
+    width: 100%;
+}
+
+.cont-card {
+    background: #fff;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #999;
+    border-radius: 5px;
+}
+
+.input3 {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    height: 35px;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.input {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    height: 35px;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.input:hover {
+    border: 1px solid #e81a99;
+}
+
+.input3:hover {
+    border: 1px solid #e81a99;
+}
+
+.input2 {
+    width: 90%;
+    margin: 10px;
+    outline: 0;
+    border: 1px solid #999;
+    padding-left: 10px;
+}
+
+.input1 {
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding-left: 10px;
+}
+
+.input1:hover {
+    border: 1px solid #e81a99;
+}
+
+.cont-btn {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: #1a1819;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cont-btn:hover {
+    background: #1a1819;
+    border: 0;
+    outline: 0;
+}
+
+/*Footer-Section*/
+.footer-section-container {
+    background: #140663;
+    background-size: cover;
+}
+
+.footer-main-heading {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #999;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.footer-icons {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-icons:hover {
+
+    text-decoration: none;
+}
+
+
+.footer-icons-style {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #999;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-icons-style1 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #999;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-icons-style {
+    text-decoration: none;
+}
+
+.footer-icons1 {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #e80e8a;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-line {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-create {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #999;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.foot-icon {
+    font-size: 20px;
+    color: #999;
+}
